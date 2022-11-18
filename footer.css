@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#06d4d4;
+    color: #b00a2c;
+    font-family: monospace; 
+    font-size: 15px;
+}
+h1{
+    font-size: 40px;
+}
+.grandfather {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    padding: 80px 50px; 
+  
+}
+.mother {
+    width: 60%;
+    display: flex; 
+    justify-content: space-between;
+    line-height: 2.3;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #b00a2c; 
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(125, 3, 125);
+    text-decoration: underline;
+}
+img{
+    width: 8%;
+}
+.grandmother{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.aunt{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+}
+.uncle{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
